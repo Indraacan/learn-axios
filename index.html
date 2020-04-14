@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+        <link rel="stylesheet" href="style.css">
+        <title>todoapp</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Contact To do</h1>
+    <div class="container">
+        <form action="" id="simpan">
+            <div class="row">
+                <div class="col-25">
+                    <label for="name">Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="name" name="firstname" placeholder="Your name..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="address">Address</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="address" name="" placeholder="Address">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="email">Email</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="email" name="" placeholder="Your email">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="email">Phone Number</label>
+                </div>
+                <div class="col-75">
+                    <input type="number" id="phone" name="" placeholder="Your phone number">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="email">Company</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="company" name="" placeholder="company">
+                </div>
+            </div>
+            <div class="posisi">
+                <button type="submit">submit</button>
+            </div>
+        </form>
+    </div>
+    <!-- <form action="" id="simpan">
+        <label for="name">Name </label><input type="text" name="name" id="name">
+        <br>
+        <label for="address">address </label><input type="text" name="address" id="address">
+        <br>
+        <label for="email">Email</label> <input type="email" name="email" id="email">
+        <br>
+        <label for="phone">Phone Number</label> <input type="number" name="phone" id="phone">
+        <br>
+        <label for="company">Company</label><input type="text" name="company" id="company">
+        <br>
+         <button type="submit">Add</button>
+    </form> -->
+    <div id="contacts">
+        <div class="table-style">
+            <div class="row">
+              <div class="col-12">
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th scope="col">No.</th>
+                      <th scope="col">Name</th>
+                      <th scope="col">Address</th>
+                      <th scope="col">Phone</th>
+                      <th scope="col">Email</th>
+                      <th scope="col">Company</th>
+                      <th scope="col">Actions</th>
+                    </tr>
+                  </thead>
+                  <tbody id='dataList'>
+                    
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

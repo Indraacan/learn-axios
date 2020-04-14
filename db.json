@@ -1,0 +1,28 @@
+{
+  "myContacts": [
+    {
+      "name": "Indra",
+      "address": "Komp taman kota mas",
+      "email": "indra@gmailcom",
+      "phone": "0976464646",
+      "company": "ImpactByte",
+      "id": 1
+    },
+    {
+      "name": "saya",
+      "address": "oke",
+      "email": "indra@gmail.com",
+      "phone": "08636464",
+      "company": "amazon",
+      "id": 2
+    },
+    {
+      "name": "Riyo",
+      "address": "Jln. Raja Isa",
+      "email": "riyo@gmail.com",
+      "phone": "097865656565",
+      "company": "google",
+      "id": 3
+    }
+  ]
+}
